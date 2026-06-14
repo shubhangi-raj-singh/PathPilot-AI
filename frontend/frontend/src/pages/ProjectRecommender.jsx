@@ -28,7 +28,7 @@ function ProjectRecommender() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/project-recommender",
+        "https://pathpilot-ai-xe60.onrender.com/project-recommender",
         {
           skills: skills.trim(),
           interests: interests.trim(),

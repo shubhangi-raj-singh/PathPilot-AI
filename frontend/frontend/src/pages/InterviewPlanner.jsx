@@ -28,7 +28,7 @@ function InterviewPlanner() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/interview-planner",
+        "https://pathpilot-ai-xe60.onrender.com/interview-planner",
         {
           skills: skills.trim(),
           interests: interests.trim(),

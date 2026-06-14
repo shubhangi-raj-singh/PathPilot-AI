@@ -64,7 +64,7 @@ function Home() {
     }
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:8000/generate-roadmap", {
+      const res = await axios.post("https://pathpilot-ai-xe60.onrender.com/generate-roadmap", {
         name,
         skills,
         interests,

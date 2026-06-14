@@ -27,7 +27,7 @@ function SkillGap() {
     setOutput("");
 
     try {
-      const res = await axios.post("http://localhost:8000/skill-gap", {
+      const res = await axios.post("https://pathpilot-ai-xe60.onrender.com/skill-gap", {
         skills: skills.trim(),
         interests: interests.trim(),
         about: about.trim(),

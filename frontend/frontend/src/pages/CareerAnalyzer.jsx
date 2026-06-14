@@ -28,7 +28,7 @@ function CareerAnalyzer() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/career-analysis",
+        "https://pathpilot-ai-xe60.onrender.com/career-analyzer",
         {
           skills: skills.trim(),       
           interests: interests.trim(), 

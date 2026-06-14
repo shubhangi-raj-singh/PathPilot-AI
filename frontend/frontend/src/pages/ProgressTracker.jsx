@@ -29,7 +29,7 @@ function ProgressTracker() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/progress-tracker",
+        "https://pathpilot-ai-xe60.onrender.com/progress-tracker",
         {
           skills: skills.trim(),
           interests: interests.trim(),

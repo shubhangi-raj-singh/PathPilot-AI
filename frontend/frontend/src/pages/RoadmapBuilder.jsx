@@ -28,7 +28,7 @@ function RoadmapBuilder() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8000/generate-roadmap",
+        "https://pathpilot-ai-xe60.onrender.com/generate-roadmap",
         {
           name: "Student",
           skills: skills.trim(),
