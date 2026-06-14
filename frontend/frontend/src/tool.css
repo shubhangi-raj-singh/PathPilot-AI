@@ -1,0 +1,237 @@
+.tool-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: radial-gradient(circle at top left, #0a1c2f, #050b14 70%);
+  color: white;
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.back-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.back-btn:hover {
+  border-color: #00f0ff;
+  color: #00f0ff;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.25);
+}
+
+.tool-card {
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+  padding: 40px;
+  border-radius: 28px;
+  background: linear-gradient(145deg, rgba(31, 39, 48, 0.8), rgba(11, 16, 22, 0.95));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.tool-card h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #00f0ff;
+  font-weight: 700;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.65), 0 0 30px rgba(0, 240, 255, 0.2);
+  margin-bottom: 8px;
+}
+
+.tool-card p {
+  color: #94a3b8;
+  margin-bottom: 25px;
+}
+
+.tool-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tool-form input,
+.tool-form textarea,
+.tool-form select {
+  background: rgba(255, 255, 255, .03);
+  border: 1px solid rgba(255, 255, 255, .08);
+  color: white;
+  padding: 16px;
+  border-radius: 14px;
+  transition: .25s;
+}
+
+.tool-form input:focus,
+.tool-form textarea:focus {
+  border-color: #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 240, 255, .25);
+  transform: translateY(-1px);
+}
+
+.tool-submit {
+  background: linear-gradient(180deg, #1e293b, #0f172a);
+  border: 1px solid rgba(0, 240, 255, .4);
+  color: white;
+  font-weight: 700;
+  padding: 16px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: .25s;
+  box-shadow: 0 0 18px rgba(0, 240, 255, .15);
+}
+
+.tool-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 30px rgba(0, 240, 255, .35);
+  border-color: #00f0ff;
+}
+
+.tool-note {
+  margin-top: 20px;
+  text-align: center;
+  color: #00f0ff;
+  font-size: .9rem;
+  line-height: 1.7;
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.6);
+}
+
+.tool-header-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tool-header-title img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  display: block;
+  position: relative;
+  top: 2px;
+}
+
+.tool-header-title h1 {
+  margin: 0;
+  position: relative;
+  top: -2px;
+}
+
+.roadmap-output {
+  margin-top: 25px;
+  padding: 35px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  color: #e2e8f0;
+  line-height: 1.8;
+  font-size: 0.95rem;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.02);
+}
+
+.roadmap-output h2 {
+  color: #00f0ff;
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin-top: 35px;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.25);
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.roadmap-output ul {
+  padding-left: 24px;
+}
+
+.roadmap-output li {
+  margin-bottom: 10px;
+  color: #cbd5e1;
+}
+
+.report-meta {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 25px;
+  font-size: 0.95rem;
+}
+
+.pdf-btn {
+  margin: 40px auto 10px auto;
+  display: block;
+  padding: 12px 24px;
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  background: linear-gradient(135deg, #050b14, #0077ff);
+  color: white;
+  transition: 0.3s;
+  box-shadow: 0 0 12px rgba(0, 240, 255, 0.15);
+}
+
+.pdf-btn:hover {
+  transform: translateY(-2px);
+  border-color: #00f0ff;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+}
+
+.tool-card.pdf-render-mode {
+  background: #ffffff ;
+  color: #1e293b;
+  box-shadow: none;
+  border: none;
+  backdrop-filter: none;
+}
+
+.pdf-render-mode h1 {
+  color: #0f172a;
+  text-shadow: none;
+}
+
+.pdf-render-mode .report-meta,
+.pdf-render-mode .tool-note {
+  color: #64748b;
+  text-shadow: none;
+}
+
+.pdf-render-mode .roadmap-output {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  color: #334155;
+}
+
+.pdf-render-mode .roadmap-output h2 {
+  color: #0284c7;
+  text-shadow: none;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.pdf-render-mode .roadmap-output li {
+  color: #334155;
+}
+
+.pdf-render-mode p, 
+.pdf-render-mode li, 
+.pdf-render-mode h2 {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.pdf-render-mode {
+    height: auto;
+    overflow: visible;
+}

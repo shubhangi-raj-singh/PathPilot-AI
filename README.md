@@ -1,36 +1,103 @@
 # PathPilot AI
 
 ## Tagline
-An AI-powered reasoning agent that analyzes student profiles, recommends career paths, identifies skill gaps, and builds personalized success roadmaps.
+
+Your AI-Powered Career Navigation Agent
 
 ## Overview
-PathPilot AI is an intelligent reasoning agent that helps students make informed career decisions. It analyzes skills, interests, academic background, and goals to recommend suitable career paths, identify skill gaps, generate personalized roadmaps, suggest projects, and provide interview preparation guidance.
 
-## Planned Features
+PathPilot AI is an intelligent career guidance platform that helps students discover the right career path through AI-powered insights and personalized recommendations.
 
-- Career Analyzer
-- Decision Engine
-- Skill Gap Detector
-- Roadmap Builder
-- Project Recommender
-- Interview Planner
-- Progress Tracker
+The platform analyzes a student's skills, interests, background, and career goals to generate customized career reports, identify skill gaps, recommend projects, create learning roadmaps, and provide interview preparation strategies.
+
+## Key Features
+
+### Career Analyzer
+
+Analyzes student strengths, interests, and potential career opportunities.
+
+### Skill Gap Detector
+
+Identifies missing skills required to achieve a target career goal.
+
+### Roadmap Builder
+
+Generates a structured learning roadmap with actionable milestones.
+
+### Project Recommender
+
+Suggests practical projects that strengthen skills and portfolios.
+
+### Interview Planner
+
+Provides preparation strategies, focus areas, and interview guidance.
+
+### Progress Tracker
+
+Helps students monitor growth and learning milestones.
+
+### AI Career Roadmap Generator
+
+Creates a complete personalized career report based on user inputs.
+
+### PDF Export
+
+Allows users to download their AI-generated career report as a PDF.
+Loading States
+Provides a smooth user experience while AI responses are being generated.
+
+Error Handling
+Displays user-friendly messages when the server or network is unavailable.
 
 ## Tech Stack
 
-**Frontend**
-- HTML
-- CSS
-- JavaScript
+### Frontend
 
-**Backend**
-- Python Flask
+* React.js
+* Vite
+* CSS
+* Axios
+* React Router
 
-**Database**
-- SQLite
+### Backend
 
-**AI**
-- Microsoft Foundry
+* FastAPI
+* Python
+* REST API
 
-**Version Control**
-- Git & GitHub
+### AI Engine
+
+* Groq LLM
+
+### Utilities
+
+* jsPDF
+
+### Version Control
+
+* Git
+* GitHub
+
+## How It Works
+
+1. User enters skills, interests, and career goals.
+2. AI analyzes the profile.
+3. Personalized recommendations are generated.
+4. A complete career roadmap is created.
+5. Users can download the report as a PDF.
+
+## Future Scope
+
+* User Authentication
+* Login & Signup System
+* Saved Career Reports
+* Progress History Dashboard
+* Database Integration
+* Career Recommendation Analytics
+* AI Mentor Chat Assistant
+
+## Author
+
+Shubhangi Raj Singh
+
+Built for AI Agent Hackathon 2026.
